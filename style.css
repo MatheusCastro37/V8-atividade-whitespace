@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root{
     --background-main: #043873;
+    --btn-color: #4F9CF9;
+    --generic-background-div: #C4DEFD;
 }
 
 *,
@@ -21,10 +25,16 @@ img {
 
 a {
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 body{
     background-color: var(--background-main);
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header{
@@ -47,4 +57,52 @@ header img#logo{
 
 button.menu-hamburguer{
     display: flex;
+}
+
+section#hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./assets/img/Element.svg");
+    background-position: bottom;
+}
+
+div#hero-section-container{
+    width: 90%;
+}
+
+
+div#hero-section-container h1{
+    font-size: 2.25rem;
+    text-align: center;
+}
+
+div#hero-section-heading{
+    margin: 70px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#hero-section-heading p{
+    margin: 40px 10px;
+    line-height: 30px;
+}
+
+div#hero-section-heading a{
+    background-color: var(--btn-color);
+    padding: 20px 40px;
+    border-radius: 8px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div#hero-section-heading div{
+    width: 100%;
+    height: 191px;
+    background-color: var(--generic-background-div);
+    margin-top: 100px;
 }
