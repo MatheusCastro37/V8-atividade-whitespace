@@ -2,6 +2,7 @@
 
 :root{
     --background-main: #043873;
+    --background-secondary: #FFFFFF;
     --btn-color: #4F9CF9;
     --generic-background-div: #C4DEFD;
 }
@@ -86,11 +87,14 @@ div#hero-section-heading{
 }
 
 div#hero-section-heading p{
-    margin: 40px 10px;
+    margin: 40px 0;
     line-height: 30px;
+    font-size: 1.125rem;
 }
 
-div#hero-section-heading a{
+div#hero-section-heading a,
+div#project-management a,
+div#work-together a{
     background-color: var(--btn-color);
     padding: 20px 40px;
     border-radius: 8px;
@@ -105,4 +109,51 @@ div#hero-section-heading div{
     height: 191px;
     background-color: var(--generic-background-div);
     margin-top: 100px;
+}
+
+section#work-management{
+    background-color: var(--background-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#work-management-container{
+    width: 90%;
+    margin: 80px 0;
+}
+
+div#work-management-container p{
+    color: #000000;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.125rem;
+}
+
+div#project-management,
+div#work-together{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+div#project-management a,
+div#work-together a{
+    width: 70%;
+    margin: 50px 0;
+}
+
+div#project-management div{
+    width: 100%;
+    height: 177px;
+    background-color: var(--generic-background-div);
+}
+
+div#work-together{
+    margin: 50px 0;
+}
+
+div#work-together > img{
+    width: 97%;
 }
