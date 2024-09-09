@@ -483,3 +483,52 @@ div#logos{
 div#logos img{
     width: 35px;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+div#footer-container{
+    width: 90%;
+    margin: 140px 0 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#footer-container > p{
+    margin: 24px 0 80px 0;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.125rem;
+}
+
+div#footer-guides{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+div#footer-product,
+div#footer-resources,
+div#footer-company{
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#footer-product h4,
+div#footer-resources h4,
+div#footer-company h4{
+    font-size: 1.125rem;
+}
+
+div#footer-product p,
+div#footer-resources p,
+div#footer-company p{
+    font-size: 1.125rem;
+    line-height: 30px;
+}
