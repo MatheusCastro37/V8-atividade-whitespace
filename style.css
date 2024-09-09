@@ -225,3 +225,77 @@ div#customise-section-container a{
     margin-top: 60px;
     width: 55%;
 }
+
+section#pricing-section{
+    background-color: var(--background-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#pricing-section-container{
+    width: 90%;
+    margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#pricing-section-container > p{
+    color: #000000;
+    font-size: 1.125rem;
+    line-height: 30px;
+    text-align: center;
+}
+
+div#plans{
+    margin: 60px 0;
+}
+
+div.choice{
+    background-color: var(--background-main);
+    padding: 20px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+
+div.choice p.choice-title{
+    line-height: 36px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+div.choice h4.choice-price{
+    font-size: 2.25rem;
+    margin: 25px 0;
+}
+
+div.choice ul{
+    margin: 25px 0;
+}
+
+div.choice ul li{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+div.choice ul li img{
+    margin-right: 19px;
+}
+
+div.choice ul li:nth-child(2),
+div.choice ul li:nth-child(3),
+div.choice ul li:nth-child(4),
+div.choice ul li:nth-child(5){
+    margin: 28px 0;
+}
+
+div.choice a{
+    background-color: var(--btn-color);
+    padding: 16px 40px;
+    border-radius: 8px;
+}
