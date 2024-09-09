@@ -442,3 +442,44 @@ div#client-description p:last-child{
     font-weight: 1.125rem;
     line-height: 30px;
 }
+
+section#free-trial{
+    display: flex;
+    justify-content: center;
+}
+
+div#free-trial-container{
+    width: 90%;
+    margin: 100px 0 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+div#free-trial-container h4{
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+    line-height: 52px;
+}
+
+div#free-trial-container p{
+    line-height: 30px;
+    font-size: 1.125rem;
+}
+
+div#free-trial-container a{
+    background-color: var(--btn-color);
+    padding: 20px 40px;
+    border-radius: 8px;
+    margin: 40px 0;
+}
+
+div#logos{
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+div#logos img{
+    width: 35px;
+}
