@@ -347,7 +347,8 @@ div#your-data-container p{
     margin-top: 24px;
 }
 
-div#your-data-container a{
+div#your-data-container a,
+div#apps-section-container a{
     background-color: var(--btn-color);
     padding: 20px 40px;
     border-radius: 8px;
@@ -367,4 +368,32 @@ div#sponsors-section-container{
     align-items: center;
     margin: 80px 0;
     gap: 100px;
+}
+
+section#apps-section{
+    display: flex;
+    justify-content: center;
+    background-image: url("./assets/img/Element.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div#apps-section-container{
+    margin: 80px 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#apps-section-container h4{
+    font-size: 2.25rem;
+    text-align: center;
+    margin: 100px 0 24px 0;
+}
+
+div#apps-section-container p{
+    font-size: 1.125rem;
+    text-align: center;
+    line-height: 30px;
 }
