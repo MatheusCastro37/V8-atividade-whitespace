@@ -299,3 +299,28 @@ div.choice a{
     padding: 16px 40px;
     border-radius: 8px;
 }
+
+section#your-work{
+    margin: 100px 0 140px 0;
+    display: flex;
+    justify-content: center;
+}
+
+div#your-work-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+div#your-work-container a{
+    background-color: var(--btn-color);
+    padding: 20px 40px;
+    border-radius: 8px;
+    margin-top: 60px;
+}
+
+div#your-work-container p{
+    line-height: 30px;
+    font-size: 1.125rem;
+}
