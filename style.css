@@ -65,7 +65,7 @@ section#hero-section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("./assets/img/Element.svg");
+    background-image: url("./assets/img/element.svg");
     background-position: bottom;
 }
 
@@ -117,6 +117,9 @@ div#hero-section-heading div{
 }
 
 section#work-management{
+    background-image: url("./assets/img/element-2.svg");
+    background-repeat: no-repeat;
+    background-position-y: 40px;
     background-color: var(--background-secondary);
     display: flex;
     flex-direction: column;
@@ -373,7 +376,7 @@ div#sponsors-section-container{
 section#apps-section{
     display: flex;
     justify-content: center;
-    background-image: url("./assets/img/Element.svg");
+    background-image: url("./assets/img/element.svg");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -531,4 +534,68 @@ div#footer-resources p,
 div#footer-company p{
     font-size: 1.125rem;
     line-height: 30px;
+}
+
+div#footer-product p:nth-child(2){
+    color: #ff0;
+}
+
+div#try-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+    width: 70%;
+}
+
+div#try-btn h5{
+    line-height: 36px;
+    font-size: 1.75rem;
+}
+
+div#try-btn p{
+    line-height: 30px;
+    font-size: 1.125rem;
+    text-align: center;
+}
+
+div#try-btn a{
+    background-color: var(--btn-color);
+    padding: 20px 40px;
+    border-radius: 8px;
+}
+
+div#terms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+div#terms label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+div#terms label select{
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+div#terms p{
+    line-height: 20px;
+}
+
+div#footer-container hr{
+    width: 100%;
+    margin: 20px 0;
+}
+
+div#social-media{
+    display: flex;
+    gap: 32px;
 }
