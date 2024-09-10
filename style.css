@@ -130,7 +130,9 @@ section#hero-section{
 }
 
 div#hero-section-container{
+    display: flex;
     width: 90%;
+    justify-content: center;
 }
 
 
@@ -150,7 +152,7 @@ div#hero-section-heading{
 div#hero-section-heading p,
 div#extension-section-container p{
     text-align: center;
-    margin: 40px 0;
+    margin: 24px 0 60px 0;
     line-height: 30px;
     font-size: 1.125rem;
 }
@@ -240,7 +242,7 @@ div#extension-section-container{
 
 div#extension-section-container p{
     margin: 0;
-    margin-top: 20px;
+    margin-top: 24px;
 }
 
 div#extension-section-container a{
@@ -658,4 +660,46 @@ div#footer-container hr{
 div#social-media{
     display: flex;
     gap: 32px;
+}
+
+@media (min-width: 768px) {
+    header{
+        height: 66px;
+    }
+
+    header img#logo{
+        width: 191px;
+        height: 34px;
+    }
+
+    button.menu-hamburguer{
+        height: 34px;
+    }
+
+    button.menu-hamburguer img{
+        height: 100%;
+    }
+
+    section#hero-section{
+        background-image: url("./assets/img/element_tablet.svg");
+        background-repeat: no-repeat;
+        background-position-y: 80px;
+    }
+
+    div#hero-section-heading{
+        margin: 140px 0 100px 0;
+        width: 80%;
+    }
+
+    div#hero-section-container h1{
+        font-size: 3.375rem;
+    }
+
+    div#hero-section-heading a{
+        max-width: 232px;
+    }
+
+    div#hero-section-heading div{
+        height: 367px;
+    }
 }
