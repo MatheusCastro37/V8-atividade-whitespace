@@ -870,5 +870,30 @@ div#social-media{
     div#sponsors-section-container img:nth-child(1n+2){
         width: 40%;
     }
+
+    section#apps-section{
+        background-image: url("./assets/img/element_apps_tablet.svg");
+        background-position: top;
+    }
+
+    div#apps-section-container {
+        margin: 140px 0;
+    }
+
+    div#apps-section-container > img{
+        width: 485px;
+    }
+
+    div#apps-section-container h4{
+        font-size: 3.375rem;
+    }
+
+    div#apps-section-container a{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 205px;
+        height: 63px;
+    }
     
 }
