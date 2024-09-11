@@ -933,5 +933,76 @@ div#social-media{
     div#card-client:nth-child(1), div#card-client:nth-child(2) {
         display: block;
     }
+
+    div#free-trial-container{
+        width: 95%;
+        margin: 140px 0 0 0;
+    }
+
+    div#free-trial-container h4{
+        font-size: 3.375rem;
+    }
+
+    div#free-trial-container a{
+        width: 241px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    div#free-trial-container p {
+        line-height: 32px;
+        font-size: 1.5rem;
+    }
+
+    div#logos img {
+        width: 60px;
+    }
+
+    div#footer-container{
+        align-items: flex-start;
+        width: 90%;
+    }
+
+    div#footer-container > img{
+        width: 251px;
+        height: 62px;
+    }
+
+    div#footer-container > p{
+        text-align: left;
+        margin: 24px 0 100px 0;
+    }
+
+    div#footer-guides{
+        align-items: flex-start;
+        gap: 100px;
+        width: 100%;
+    }
+
+    div#footer-product,
+    div#footer-resources,
+    div#footer-company{
+        align-items: flex-start;
+    }
+
+    div#try-btn{
+        width: 30%;
+    }
+
+    div#try-btn p{
+        text-align: left;
+    }
+
+    div#try-btn a {
+        width: 187px;
+    }
+
+    div#terms{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     
 }
