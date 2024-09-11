@@ -753,4 +753,22 @@ div#social-media{
         justify-content: space-between;
     }
 
+    div#customise-section-container{
+        margin: 140px 0;
+    }
+
+    div#customise-section-container div {
+        width: 534px;
+        height: 397px;
+        margin-bottom: 0;
+    }
+
+    div#customise-section-container {
+        width: 95%;
+    }
+
+    div#customise-section-container a {
+        width: 176px;
+    }
+
 }
