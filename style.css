@@ -728,4 +728,29 @@ div#social-media{
         width: 454px;
     }
 
+    div#extension-section-container {
+        width: 95%;
+    }
+
+    div#extension-section-container a {
+        width: 164px;
+    }
+
+    div#extension-section-container div {
+        width: 557px;
+        height: 389px;
+    }
+
+    section#extension-section {
+        margin: 30px 0 100px 0;
+    }
+
+    div#hero-section-heading a,
+    div#project-management a,
+    div#work-together a,
+    div#extension-section-container a,
+    div#customise-section-container a{
+        justify-content: space-between;
+    }
+
 }
