@@ -125,7 +125,7 @@ section#hero-section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("./assets/img/element.svg");
+    background-image: url("./assets/img/element_hero_mobile.svg");
     background-position: bottom;
 }
 
@@ -179,7 +179,7 @@ div#hero-section-heading div{
 }
 
 section#work-management{
-    background-image: url("./assets/img/element-2.svg");
+    background-image: url("./assets/img/element_work_mobile.svg");
     background-repeat: no-repeat;
     background-position-y: 40px;
     background-color: var(--background-secondary);
@@ -380,12 +380,12 @@ div.choice a{
 }
 
 section#your-work{
-    margin: 100px 0 140px 0;
     display: flex;
     justify-content: center;
 }
 
 div#your-work-container{
+    margin: 100px 0 140px 0;
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -452,7 +452,7 @@ div#sponsors-section-container{
 section#apps-section{
     display: flex;
     justify-content: center;
-    background-image: url("./assets/img/element.svg");
+    background-image: url("./assets/img/element_hero_mobile.svg");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -695,7 +695,7 @@ div#social-media{
     }
 
     section#hero-section{
-        background-image: url("./assets/img/element_tablet.svg");
+        background-image: url("./assets/img/element_hero_tablet.svg");
         background-repeat: no-repeat;
         background-position-y: 80px;
     }
@@ -818,4 +818,14 @@ div#social-media{
         margin-top: 30px;
     }
 
+    section#your-work{
+        background-image: url("./assets/img/element_work_tablet.png");
+        background-repeat: no-repeat;
+    }
+
+    div#your-work-container {
+        width: 95%;
+        margin-top: 0;
+    }
+    
 }
