@@ -212,7 +212,7 @@ div#extension-section-container{
 div#project-management a,
 div#work-together a{
     width: 70%;
-    margin: 50px 0;
+    margin: 60px 0;
 }
 
 div#project-management div{
@@ -702,4 +702,30 @@ div#social-media{
     div#hero-section-heading div{
         height: 367px;
     }
+}
+
+@media (min-width: 768px) {
+    div#work-management-container {
+        width: 95%;
+        margin: 10px 0 280px 0;
+    }
+
+    div#project-management a{
+        width: 190px;
+    }
+
+    div#project-management div{
+        width: 561px;
+        height: 349px;
+    }
+
+    div#work-together a{
+        width: 177px;
+        margin: 60px 0 100px 0;
+    }
+
+    div#work-together > img {
+        width: 454px;
+    }
+
 }
