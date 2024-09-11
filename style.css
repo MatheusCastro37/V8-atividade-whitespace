@@ -827,5 +827,22 @@ div#social-media{
         width: 95%;
         margin-top: 0;
     }
+
+    div#your-data-container {
+        margin: 140px 0;
+    }
+
+    div#your-data-container > img:nth-child(1){
+        width: 513px;
+        height: 287px;
+    }
+
+    div#your-data-container img:nth-child(2){
+        height: 65px;
+    }
+
+    div#sponsors-section-container {
+        margin-bottom: 140px;
+    }
     
 }
