@@ -1594,4 +1594,8 @@ div#social-media{
     section#apps-section{
         background-image: url("./assets/img/element_apps_desktopV2.svg");
     }
+
+    div#cards {
+        padding: 0 2%;
+    }
 }
