@@ -1524,4 +1524,17 @@ div#social-media{
         width: 186px;
         height: 63px;
     }
+
+    div#extension-section-container p{
+        margin-top: 0;
+    }
+
+    div#extension-section-container div#extension-infos{
+        width: 45%;
+    }
+
+    div#extension-section-container div:last-child{
+        height: 479px;
+        width: 686px;
+    }
 }
