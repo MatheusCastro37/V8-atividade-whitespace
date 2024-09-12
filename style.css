@@ -1475,4 +1475,26 @@ div#social-media{
     button.menu-hamburguer{
         display: none;
     }
+
+    section#hero-section {
+        background-image: url("./assets/img/element_hero_desktopV2.svg");
+    }
+
+    div#hero-section-heading div:last-child{
+        width: 685px;
+        height: 456px;
+    }
+
+    div#hero-section-heading div#hero-infos{
+        justify-content: center;
+    }
+
+    
+    div#hero-section-container{
+        width: 97%;
+    }
+
+    div#hero-section-heading{
+        margin: 100px 0;
+    }
 }
