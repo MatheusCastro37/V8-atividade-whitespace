@@ -1537,4 +1537,21 @@ div#social-media{
         height: 479px;
         width: 686px;
     }
+
+    div#customise-section-container{
+        width: 96%;
+    }
+
+    div#customise-section-container div:first-child{
+        height: 499px;
+        width: 670px;
+    }
+
+    div#customise-section-container div#customise-infos{
+        width: 646px;
+    }
+
+    div#customise-section-container p{
+        line-height: 30px;
+    }
 }
