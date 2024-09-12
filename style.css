@@ -113,6 +113,11 @@ div#header-container div#header-btn a:nth-child(2){
     font-size: 1rem;
 }
 
+div#header-container div#header-btn a:nth-child(1),
+div#header-container div#header-btn a:nth-child(2){
+    display: none;
+}
+
 div.overlay{
     width: 100%;
     height: 100%;
@@ -1433,9 +1438,41 @@ div#social-media{
         height: 24px;
     }
 
+    div#header-container div#header-btn a:nth-child(1),
+    div#header-container div#header-btn a:nth-child(2){
+        display: block;
+    }
+
     div#header-container a:nth-child(6),
     div#header-container a:nth-child(7){
         display: none;
     }
 
+}
+
+@media (min-width: 1440px) {
+    div#header-container div.menu.right {
+        flex-direction: row;
+        width: auto;
+        margin: 0 64px 0 auto;
+        gap: 32px;
+    }
+    
+    div#header-container div.menu {
+        height: auto;
+        position: initial;
+        background-color: transparent;
+    }
+    
+    div#header-container div.menu.right a:first-child{
+        display: none;
+    }
+
+    div#header-container a{
+        color: #FFFFFF;
+    }
+
+    button.menu-hamburguer{
+        display: none;
+    }
 }
