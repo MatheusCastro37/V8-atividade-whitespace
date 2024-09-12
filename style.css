@@ -90,14 +90,22 @@ div#header-container a{
     line-height: 23px;
 }
 
-div#header-container a:nth-child(6){
+div#header-container div#header-btn{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+div#header-container a:nth-child(6),
+div#header-container div#header-btn a:nth-child(1){
     color: #043873;
     border-radius: 8px;
     padding: 16px 40px;
     background-color: #FFE492;
 }
 
-div#header-container a:nth-child(7){
+div#header-container a:nth-child(7),
+div#header-container div#header-btn a:nth-child(2){
     border-radius: 8px;
     padding: 18px;
     background-color: var(--btn-color);
@@ -119,6 +127,11 @@ div.overlay{
 
 button.menu-hamburguer{
     display: flex;
+    align-items: center;
+}
+
+button.menu-hamburguer a{
+    display: none;
 }
 
 section#hero-section{
@@ -1409,6 +1422,20 @@ div#social-media{
         width: 105px;
         border: none;
         padding: 0;
+    }
+
+    button.menu-hamburguer a{
+        display: block;
+    }
+
+    button.menu-hamburguer > img{
+        width: 42px;
+        height: 24px;
+    }
+
+    div#header-container a:nth-child(6),
+    div#header-container a:nth-child(7){
+        display: none;
     }
 
 }
