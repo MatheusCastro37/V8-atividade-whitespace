@@ -1237,5 +1237,33 @@ div#social-media{
         width: 562px;
         height: 314px;
     }
+    
+    section#sponsors-section{
+        padding: 140px 0;
+    }
+
+    section#sponsors-section > img{
+        height: 85px;
+    }
+
+    div#sponsors-section-container{
+        gap: 0;
+        margin: 100px 0 0 0;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    div#sponsors-section-container img:nth-child(2){
+        width: 287px;
+    }
+
+    div#sponsors-section-container img:nth-child(3){
+        width: 280px;
+    }
+
+    div#sponsors-section-container img:nth-child(4){
+        width: 211px;
+    }
+
 
 }
