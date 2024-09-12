@@ -1586,4 +1586,12 @@ div#social-media{
         width: 681px;
         height: 381px;
     }
+
+    div#apps-section-container > img{
+        width: 582px;
+    }
+
+    section#apps-section{
+        background-image: url("./assets/img/element_apps_desktopV2.svg");
+    }
 }
