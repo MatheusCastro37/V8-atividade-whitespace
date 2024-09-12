@@ -1308,4 +1308,20 @@ div#social-media{
         padding: 0 5%;
     }
 
+    div#free-trial-container{
+        align-items: center;
+        width: 608px;
+        margin-bottom: 32px;
+    }
+
+    div#free-trial-container h4{
+        font-size: 4.5rem;
+        line-height: normal;
+        text-align: center;
+    }
+
+    div#free-trial-container p{
+        text-align: center;
+    }
+
 }
