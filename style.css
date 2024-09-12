@@ -1497,4 +1497,31 @@ div#social-media{
     div#hero-section-heading{
         margin: 100px 0;
     }
+
+    div#work-management-container{
+        width: 96%;
+    }
+
+    div#project-management div#project-infos{
+        width: 657px;
+    }
+
+    div#project-management div:last-child{
+        height: 448px;
+        width: 719px;
+    }
+
+    div#work-together > img{
+        width: 583px;
+    }
+
+    div#work-together{
+        gap: 160px;
+        margin-bottom: 0;
+    }
+
+    div#work-together a{
+        width: 186px;
+        height: 63px;
+    }
 }
