@@ -1186,4 +1186,26 @@ div#social-media{
     div.choice{
         min-width: 341px;
     }
+
+    section#your-work{
+        background-image: none;
+    }
+
+    div#your-work-container{
+        margin-top: 140px;
+        padding-right: 38%;
+    }
+
+    div#your-work-container p{
+        text-align: center;
+        margin-top: 24px;
+    }
+
+    div#your-work-container a {
+        display: flex;
+        width: 195px;
+        height: 63px;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
