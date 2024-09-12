@@ -1300,4 +1300,12 @@ div#social-media{
         background-position-y: 10px;
     }
 
+    div#testimonial-section-container{
+        margin: 140px 0;
+    }
+
+    div#cards {
+        padding: 0 5%;
+    }
+
 }
