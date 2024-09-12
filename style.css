@@ -1577,4 +1577,13 @@ div#social-media{
         padding: 0;
         align-items: center;
     }
+
+    div#your-data-container div#your-data-infos{
+        width: 695px;
+    }
+
+    div#your-data-container > img:nth-child(1){
+        width: 681px;
+        height: 381px;
+    }
 }
