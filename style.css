@@ -1598,4 +1598,14 @@ div#social-media{
     div#cards {
         padding: 0 2%;
     }
+
+    div#footer-guides{
+        max-width: max-content;
+        gap: 100px;
+        margin-right: 50px;
+    }
+
+    div#try-btn{
+        width: 259px;
+    }
 }
