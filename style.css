@@ -448,6 +448,12 @@ div#your-data-container{
     align-items: center;
 }
 
+div#your-data-container div#your-data-infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 div#your-data-container p{
     color: #000000;
     text-align: center;
@@ -1208,4 +1214,28 @@ div#social-media{
         justify-content: space-around;
         align-items: center;
     }
+
+    div#your-data-container {
+        flex-direction: row-reverse;
+        width: 95%;
+    }
+
+    div#your-data-container div#your-data-infos{
+        align-items: flex-start;
+    }
+
+    div#your-data-container div#your-data-infos > img{
+        width: 95%;
+    }
+
+    div#your-data-container div#your-data-infos p{
+        margin-top: 0;
+        text-align: left;
+    }
+
+    div#your-data-container > img:nth-child(1){
+        width: 562px;
+        height: 314px;
+    }
+
 }
