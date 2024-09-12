@@ -1554,4 +1554,27 @@ div#social-media{
     div#customise-section-container p{
         line-height: 30px;
     }
+
+    div#pricing-section-container > p{
+        width: 77%;
+    }
+
+    div#pricing-section-container picture img{
+        height: 87px;
+    }
+
+    div#plans {
+        padding: 0 2%;
+    }
+
+    section#your-work{
+        background-image: url("./assets/img/element_work_desktopV2.svg");
+        background-position: left;
+    }
+
+    div#your-work-container{
+        width: 80%;
+        padding: 0;
+        align-items: center;
+    }
 }
