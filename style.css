@@ -1646,4 +1646,9 @@ div#social-media{
     div#work-together > img{
         width: 710px;
     }
+
+    div#extension-section-container{
+        align-items: flex-start;
+        max-width: 1480px;
+    }
 }
