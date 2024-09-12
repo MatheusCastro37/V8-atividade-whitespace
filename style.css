@@ -1651,4 +1651,19 @@ div#social-media{
         align-items: flex-start;
         max-width: 1480px;
     }
+
+    div#customise-section-container{
+        max-width: 1480px;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    div#customise-section-container div:first-child{
+        height: 532px;
+        width: 714px;
+    }
+
+    div#customise-section-container div#customise-infos{
+        width: 730px;
+    }
 }
