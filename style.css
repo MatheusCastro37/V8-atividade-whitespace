@@ -1609,3 +1609,28 @@ div#social-media{
         width: 259px;
     }
 }
+
+@media (min-width: 1920px) {
+    section#hero-section{
+        background-image: url("./assets/img/element_hero_desktopV3.svg");
+    }
+
+    div#hero-section-heading{
+        margin: 140px 0;
+        justify-content: space-between;
+    }
+
+    div#hero-section-heading div:last-child{
+        width: 824px;
+        height: 524px;
+    }
+
+    div#hero-section-heading div#hero-infos{
+        width: 656px;
+    }
+
+    header div#header-container,
+    div#hero-section-heading{
+        max-width: 1480px;
+    }
+}
