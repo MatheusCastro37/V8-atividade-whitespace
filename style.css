@@ -1630,7 +1630,20 @@ div#social-media{
     }
 
     header div#header-container,
-    div#hero-section-heading{
+    div#hero-section-heading,
+    div#work-management-container{
         max-width: 1480px;
+    }
+
+    div#work-management-container p{
+        margin-top: 20px;
+    }
+
+    div#work-together {
+        gap: 100px;
+    }
+
+    div#work-together > img{
+        width: 710px;
     }
 }
