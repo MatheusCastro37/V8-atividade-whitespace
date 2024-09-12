@@ -518,6 +518,12 @@ div#apps-section-container{
     align-items: center;
 }
 
+div#apps-section-container div#apps-infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 div#apps-section-container h4{
     font-size: 2.25rem;
     text-align: center;
@@ -1265,5 +1271,33 @@ div#social-media{
         width: 211px;
     }
 
+    div#apps-section-container{
+        flex-direction: row;
+        gap: 100px;
+        width: 95%;
+    }
+
+    div#apps-section-container > img {
+        width: 528px;
+    }
+
+    div#apps-section-container div#apps-infos{
+        align-items: flex-start;
+    }
+
+    div#apps-section-container div#apps-infos h4{
+        font-size: 4rem;
+        margin-top: 0;
+    }
+
+    div#apps-section-container div#apps-infos h4,
+    div#apps-section-container div#apps-infos p{
+        text-align: left;
+    }
+
+    section#apps-section {
+        background-image: url("./assets/img/element_apps_desktop.svg");
+        background-position-y: 10px;
+    }
 
 }
