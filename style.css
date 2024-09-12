@@ -876,7 +876,7 @@ div#social-media{
 
     div#plans div#plan-free,
     div#plans div#plan-organization{
-        display: block;
+        display: flex;
         background-color: transparent;
         border: 1px solid #FFE492;
         color: #000000;
@@ -1174,4 +1174,16 @@ div#social-media{
         margin-top: 24px;
     }
 
+    div#pricing-section-container {
+        margin: 140px 0;
+    }
+
+    div#plans{
+        padding: 0 5%;
+        margin-bottom: 0;
+    }
+
+    div.choice{
+        min-width: 341px;
+    }
 }
