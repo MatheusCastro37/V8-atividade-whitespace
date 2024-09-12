@@ -235,6 +235,12 @@ div#work-together{
     margin: 50px 0;
 }
 
+div#work-together div#work-infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 div#work-together > img{
     width: 97%;
 }
@@ -1092,5 +1098,28 @@ div#social-media{
         margin-bottom: 0;
     }
 
+    div#work-together{
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 40px;
+    }
+
+    div#work-together div#work-infos{
+        align-items: flex-start;
+    }
+
+    div#work-together a{
+        margin-bottom: 0;
+    }
+
+    div#work-together div#work-infos p{
+        margin-top: 24px;
+    }
+
+    div#work-together > img{
+        width: 528px;
+    }
+
+    
 
 }
