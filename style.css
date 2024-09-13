@@ -1743,4 +1743,21 @@ div#social-media{
         height: 498px;
     }
 
+    div#footer-container,
+    div#btm{
+        max-width: 1480px;
+    }
+    
+    div#footer-product, div#footer-resources, div#footer-company{
+        width: 205px;
+    }
+
+    div#footer-container div#footer-slogan img{
+        width: 191px;
+    }
+
+    div#footer-guides{
+        margin-right: 0;
+    }
+
 }
