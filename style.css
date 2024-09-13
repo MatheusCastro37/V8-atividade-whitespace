@@ -1728,4 +1728,19 @@ div#social-media{
         background-image: url("./assets/img/element_apps_desktopV3.svg");
     }
 
+    div#testimonial-section-container{
+        max-width: 1480px;
+        margin-top: 0;
+    }
+
+    div#cards{
+        width: 100%;
+        padding: 0;
+    }
+
+    div#card-client{
+        padding: 60px 40px;
+        height: 498px;
+    }
+
 }
