@@ -1666,4 +1666,14 @@ div#social-media{
     div#customise-section-container div#customise-infos{
         width: 730px;
     }
+
+    div#pricing-section-container{
+        max-width: 1480px;
+        margin-top: 0;
+    }
+
+    div#plans{
+        width: 100%;
+        padding: 0;
+    }
 }
