@@ -1720,4 +1720,12 @@ div#social-media{
         max-width: 1480px;
     }
 
+    div#apps-section-container{
+        max-width: 1480px;
+    }
+
+    section#apps-section{
+        background-image: url("./assets/img/element_apps_desktopV3.svg");
+    }
+
 }
