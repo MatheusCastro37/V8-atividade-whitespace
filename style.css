@@ -1676,4 +1676,13 @@ div#social-media{
         width: 100%;
         padding: 0;
     }
+
+    div#your-work-container{
+        width: 60%;
+        margin-top: 0;
+    }
+
+    section#your-work{
+        background-image: url("./assets/img/element_work_desktopV3.svg")
+    }
 }
