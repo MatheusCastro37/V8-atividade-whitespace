@@ -1685,4 +1685,23 @@ div#social-media{
     section#your-work{
         background-image: url("./assets/img/element_work_desktopV3.svg")
     }
+
+    div#your-data-container {
+        max-width: 1480px;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    div#your-data-container div#your-data-infos{
+        width: 800px;
+    }
+
+    div#your-data-container div#your-data-infos > img{
+        width: 353px;
+    }
+
+    div#your-data-container div#your-data-infos p{
+        margin-top: 20px;
+    }
+
 }
