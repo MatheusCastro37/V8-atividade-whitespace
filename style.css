@@ -1704,4 +1704,20 @@ div#social-media{
         margin-top: 20px;
     }
 
+    section#sponsors-section{
+        flex-direction: column-reverse;
+    }
+    
+    div#sponsors-section-container{
+        margin-top: 0;
+    }
+    
+    section#sponsors-section > img{
+        margin-top: 30px;
+    }
+    
+    div#sponsors-section-container{
+        max-width: 1480px;
+    }
+
 }
