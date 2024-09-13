@@ -427,6 +427,13 @@ div.choice a{
     border-radius: 8px;
 }
 
+div#plans div#plan-free a,
+div#plans div#plan-organization a{
+    background-color: transparent;
+    color: black;
+    border: 1px solid #FFE492;
+}
+
 section#your-work{
     display: flex;
     justify-content: center;
